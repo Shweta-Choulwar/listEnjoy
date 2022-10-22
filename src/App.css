@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  min-height: 300vh;
+  /* background-color: #58647d; */
+  background-color: rgb(220, 220, 220);
 }
 
 .App-logo {
@@ -15,24 +18,202 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #3f495b; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-left: 10px;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App-footer {
+  background-color: #282c34;
+  display: flex;
+  padding: 10px;
+  min-height: 30vh;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 10px;
+}
+
+li {
+  padding: 20px;
+  margin-top: 10px;
+  font-size: large;
+  margin-left: 12px;
+}
+
+/* .options li{
+  padding: 20px;
+  margin-top: 10px;
+  font-size:large;
+  margin-left: 12px;
+}
+
+.footer li{
+  padding: 20px;
+  margin-top: 10px;
+  font-size:large;
+  margin-left: 12px;
+  color: white;
+  font-size: 64px;
+} */
+
+h2 {
+  padding: 5px;
+  margin-left: 10px;
+  /* margin: 10px; */
+}
+
+.search {
+  height: 30px;
+  padding: 5px;
+  width: 195px;
+  margin: 20px;
+  border-radius: 5px;
+  border: none;
+  /* margin-left: 20px; */
+}
+
+.srch-btn {
+  height: 38px;
+  padding: 10px;
+  width: 65px;
+  margin: 20px;
+  border: none;
+  background-color: #282c34;
+  color: #61dafb;
+  font-weight: bolder;
+  text-shadow: 0 0 5px darkblue;
+  /* margin-left: 20px; */
+}
+
+.srch-btn:hover {
+  background-color: #fff;
+  height: 39px;
+  width: 66px;
+  animation: normal;
+  border-radius: 3px;
+  color: navy;
+  box-shadow: 3px 3px white;
+}
+
+.logIn {
+  height: 38px;
+  padding: 10px;
+  width: 115px;
+  /* margin-top: 20px; */
+  margin: 20px;
+  border: none;
+  background-color: #282c34;
+  color: #61dafb;
+  font-weight: bolder;
+  text-shadow: 0 0 5px darkblue;
+}
+
+.logIn:hover {
+  background-color: #fff;
+  height: 39px;
+  width: 120px;
+  animation: normal;
+  border-radius: 3px;
+  color: navy;
+  box-shadow: 3px 3px white;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-content {
+  border: 40px;
+  padding: 40px;
+  margin: 40px;
+  font-size: 150px;
+  text-shadow: 4px 4px #774b78;
+}
+
+.polaroid {
+  width: 50%;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 35px;
+  font-size: 70px;
+  /* background-color: #774b78; */
+  background-color: rgb(128, 130, 160);
+}
+
+.polaroid p {
+  font-size: x-large;
+  margin: 30px;
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+}
+
+.review {
+  width: 1180px;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 45px;
+  font-size: 70px;
+  /* background-color: #774b78; */
+  background-color: rgb(128, 130, 160);
+}
+
+.review p {
+  font-size: x-large;
+  margin: 30px;
+  padding: 30px;
+  /* font-weight: 500; */
+}
+
+p.heading {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+/* .footer ul{
+  display: inline-grid;
+} */
+
+/* nav.footer{
+  display: flex;
+} */
+
+.polaroid button {
+  height: fit-content;
+  width: fit-content;
+  font-size: x-large;
+  border-radius: 6px;
+  background-color: #58647d;
+  border-color: #58647d;
+  box-shadow: 3px 2px #4f656b;
+}
+
+.review button {
+  height: fit-content;
+  width: fit-content;
+  font-size: xx-large;
+  border-radius: 6px;
+  background-color: #58647d;
+  border-color: #58647d;
+  box-shadow: 3px 2px #4f656b;
 }
