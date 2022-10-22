@@ -12,12 +12,12 @@ class Body extends Component {
               Listen to your fav podcasts and learn the skill you always wanted
               to!!
             </p>
-            <button>Browse</button>
+            <a href="/Browse.js"><button>Browse</button></a> 
           </div>
           <div className="polaroid">
             <p className="heading">Enjoy</p>
             <p>Enjoy every moment of listening to your fav podcasts!!</p>
-            <button>Browse</button>
+            <a href="/"><button>Browse</button></a> 
           </div>
         </div>
         <div className="review">
@@ -26,7 +26,7 @@ class Body extends Component {
             Share your reviews! Help others to find out the most suitable
             podcast for them!!
           </p>
-          <button>Review</button>
+          <a href="/"><button>Review</button></a> 
         </div>
       </div>
     );
