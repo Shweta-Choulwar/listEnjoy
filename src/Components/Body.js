@@ -4,29 +4,27 @@ class Body extends Component {
   render() {
     return (
       <div>
-        <div className="main-content">Discover your Podcasts!</div>
-        <div className="cards">
-          <div className="polaroid">
-            <p className="heading">Listen</p>
-            <p>
-              Listen to your fav podcasts and learn the skill you always wanted
-              to!!
+        <div class="card text-bg-dark shadow-lg p-3 mb-5 rounded">
+          <div class="card-body">
+            <h3 class="card-title">Listen!</h3>
+            <p class="card-text">
+              Listen to you favourite podcasts!
             </p>
-            <a href="/Browse.js"><button>Browse</button></a> 
-          </div>
-          <div className="polaroid">
-            <p className="heading">Enjoy</p>
-            <p>Enjoy every moment of listening to your fav podcasts!!</p>
-            <a href="/"><button>Browse</button></a> 
+            <a href="/" class="btn btn-danger btn-lg" id="browse">
+              Browse
+            </a>
           </div>
         </div>
-        <div className="review">
-          <p className="heading">Anndddd....REVIEW!!</p>
-          <p>
-            Share your reviews! Help others to find out the most suitable
-            podcast for them!!
-          </p>
-          <a href="/"><button>Review</button></a> 
+        <div class="card text-bg-dark shadow-lg p-3 mb-5 rounded">
+          <div class="card-body">
+            <h3 class="card-title">Review!</h3>
+            <p class="card-text">
+              Your review matters! So help people find what's best for them!
+            </p>
+            <a href="/" class="btn btn-danger btn-lg" id="browse">
+              Review
+            </a>
+          </div>
         </div>
       </div>
     );

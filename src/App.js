@@ -9,9 +9,6 @@ function App() {
     <div className="App">
       <Nav/>
       <Body/>
-      {/* <form action="../../post" method="post" className="form">
-      <button type="submit">Connect</button>
-      </form> */}
       <Footer/>
 
     </div>
