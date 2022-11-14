@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Nav from "./Nav";
 
 class Browse extends Component {
 //   constructor(props) {
@@ -9,7 +8,6 @@ class Browse extends Component {
   render() {
     return (
       <div>
-        <Nav/>
       </div>
     );
   }
